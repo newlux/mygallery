@@ -24,40 +24,7 @@ mygallery
 4 后台两个接口(php/myGallery.php):
   1 getPics   (首次返回30个结果,2个参数page,pagesize=30)    
    返回结果如下:
-   {
-  "errNo":0,
-	"msg":"OK",
-	"tag1" : "美女",
-	"tag2" : "全部",
-	"totalNum" : 98854,
-	"start_index" : 0,
-	"return_number" : 30,
-	"data" : [{
-			"id" : "9220203856802541257",
-			"pn" : 1,
-			"tags" : "美空",
-			"image_url" : "xxx",
-			"image_width" : 575,
-			"image_height" : 848,
-			"thumbnail_url" : "xxx",
-			"thumbnail_width" : 230,
-			"thumbnail_height" : 339,
-			"thumb_large_width" : 310,
-			"thumb_large_height" : 457,
-			"thumb_large_url" : "xxx",
-			"site_name" : "",
-			"site_logo" : "",
-			"site_url" : "http://www.yjz9.com",
-			"from_url" : "http://www.yjz9.com/show_news.asp?id=7207",
-			"obj_url" : "http://www.yjz9.com/upload/20122/120301bxg11.jpg",
-			"download_num" : 0,
-			"start_index" : 0,
-			"return_number" : 30,
-			"album_di" : "",
-			"can_album_id" : "",
-			"album_obj_num" : "0"
-		}]}
-    具体参见(js/json/data.js)
+   具体参见(js/json/data.js)
 
 
   
